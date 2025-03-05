@@ -1,0 +1,103 @@
+/* App.css */
+body {
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  background-color: #1A535C;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.length-controls {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.break-control, .session-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.controls button:hover {
+  color: #FFD700;
+}
+
+#break-length, #session-length {
+  font-size: 1.5rem;
+}
+
+.timer {
+  background-color: #4ECDC4;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#timer-label {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#time-left {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.timer-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.timer-controls button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.timer-controls button:hover {
+  color: #FFD700;
+}
+
+.footer {
+  color: #ff6b6b;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
